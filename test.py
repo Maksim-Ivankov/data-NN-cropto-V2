@@ -15,3 +15,7 @@ from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 import random
 
+print(55061273+7879972+23598950+68695645+110462426+120184306+71157107+33162050+12830692+13667934)
+
+
+
