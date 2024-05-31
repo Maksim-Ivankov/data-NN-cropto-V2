@@ -8,9 +8,9 @@ import progressbar
 path = 'big_data/5min/'
 csv_file_path = 'big_data/ml_v1/1min/'
 
-TP = 0.008
+TP = 0.003
 SL = 0.003
-TIME_TRADE = 30 # 12 пятиминуток стои в сделке - 60 минут. За это время должны словить тейк или стоп, если не словим - сделка 0
+TIME_TRADE = 5 # 12 пятиминуток стои в сделке - 60 минут. За это время должны словить тейк или стоп, если не словим - сделка 0
 
 coin = next(os.walk(f'{csv_file_path}/'))[2] # получаем все названия файлов в папке 0 - монеты
 bar = progressbar.ProgressBar(maxval=len(coin)).start() # прогресс бар в консоли
